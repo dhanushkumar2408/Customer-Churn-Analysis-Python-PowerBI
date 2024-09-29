@@ -37,9 +37,6 @@ This analysis focuses on identifying key factors influencing customer churn in a
    - **Pairplots**:
      - Visualizations such as pairplots indicate clear separation between customers who churned and those who didn't, based on tenure and monthly charges. Blue points represent non-churners and orange points represent churners, highlighting that short-tenured, high-paying customers are more likely to churn.
 
-6. **Predictive Model Development (Planned)**:
-   - The insights from this analysis will likely inform a predictive model aimed at forecasting churn. By identifying high-risk customer segments (e.g., those with high monthly charges, short tenures, or who use electronic checks), the company can develop proactive measures to retain these customers.
-   - Metrics such as **accuracy, precision, and recall** will be key in evaluating the effectiveness of the churn prediction model. These insights will enable the company to focus retention efforts where they are most needed, improving customer lifetime value.
 
 #### **Recommended Actions**:
 1. **Target High-Risk Segments**:
