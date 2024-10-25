@@ -70,12 +70,54 @@ This analysis focuses on identifying key factors influencing customer churn in a
   - Positive correlation observed between monthly charges and churn likelihood.
   - Pair plots reveal multi-dimensional relationships between features like tenure, total charges, and monthly charges with respect to churn.
 
-#### **Recommended Actions**:
-1. **Target High-Risk Segments**:
-   - Focus retention strategies on customers with short tenures, particularly those in their first year of service. Offering discounts or service upgrades could reduce churn.
-2. **Offer Incentives for Contract Upgrades**:
-   - Encourage month-to-month customers to switch to longer-term contracts by offering promotions or loyalty programs. Customers on longer-term contracts have a churn rate of less than **5%**.
-3. **Review Pricing for High Monthly Charge Customers**:
-   - Consider restructuring pricing for high-spending customers. With over **45%** churn among customers paying more than \$80/month, offering bundled discounts or loyalty bonuses could improve retention.
-4. **Promote Automatic Payment Methods**:
-   - Since customers using electronic checks have a much higher churn rate (**46%**), promoting automatic bank or card payments may lower churn by ensuring timely payments.
+  
+
+## **POWERBI RPORT**
+
+
+# Customer Churn Analysis Report
+
+## Overview
+
+This report presents a comprehensive analysis of customer churn patterns, aiming to identify key factors contributing to customer attrition and potential retention strategies. Our analysis includes metrics such as churn rate by demographic features, subscription attributes, service types, and billing information, using a telecom dataset with 7,043 customers.
+
+## Key Insights
+
+1. **Churn Rate and Customer Demographics:**
+   - **Overall Churn Rate:** 26.5%, indicating a substantial customer turnover rate.
+   - **Gender Analysis:** Churn is nearly equal across genders, with 50.24% of churned customers being female and 49.76% male.
+   - **Senior Citizens:** 25% of the churned customers are senior citizens, a notable proportion compared to other demographics.
+   - **Dependents:** Only 17% of churned customers have dependents, suggesting lower attrition rates for customers with family responsibilities.
+
+2. **Service Usage Patterns:**
+   - **Internet Services:** Customers using fiber optic internet have a significantly higher churn rate (41.9%) compared to DSL (19%) and customers without internet services (7.4%).
+   - **Streaming Services:** High churn is also observed among customers who subscribe to streaming TV (44%) and streaming movies (44%), indicating potential dissatisfaction with these add-on services.
+
+3. **Billing and Payment Patterns:**
+   - **Payment Method:** Electronic check users exhibit the highest churn rate at 45.3%, followed by mailed check (19.1%), bank transfer (16.7%), and credit card (15.2%).
+   - **Paperless Billing:** Customers on paperless billing have a higher churn rate, with 74.91% of churned customers opting for paperless billing.
+   - **Monthly Charges:** The average monthly charge for churned customers is $74, indicating a potential correlation between higher monthly costs and churn behavior.
+
+4. **Subscription Contracts and Tenure:**
+   - **Contract Types:** Month-to-month contracts see the highest churn rate at 42.7%, with significant drops for one-year (11.3%) and two-year contracts (2.8%).
+   - **Tenure Analysis:** Customers with less than one year of tenure show the highest churn, at 47.4%. The churn rate decreases with tenure, indicating that long-term customers are less likely to leave.
+
+5. **Customer Support Metrics:**
+   - **Tech and Admin Tickets:** A higher volume of tech support tickets (2,955) compared to admin tickets (3,632) correlates with higher churn rates, highlighting the importance of technical service quality.
+
+## Visuals Summary
+
+- **Churn by Gender, Age, and Family Status**: Gender distribution of churn shows near equality, with higher churn rates among senior citizens and customers without dependents.
+- **Service Usage & Churn**: High churn is associated with fiber optic internet and streaming services.
+- **Payment and Billing**: The electronic check method has the highest churn rate, indicating a possible area for intervention.
+- **Contract Tenure**: Shorter contract terms and lower tenure correlate with higher churn, suggesting that incentives for longer-term contracts could reduce churn.
+
+## Recommendations from Report
+
+1. **Incentivize Longer Contracts**: Offering incentives for yearly or bi-yearly subscriptions may help retain customers, as month-to-month contracts have the highest churn.
+2. **Targeted Support for Senior Citizens**: Provide additional support and engagement strategies for senior citizens, a demographic with a high churn risk.
+3. **Optimize Billing Options**: Shift electronic check users to more stable payment options, such as bank transfer or credit card, to reduce churn.
+4. **Improve Service Quality for High-Risk Services**: Enhancing fiber optic and streaming service reliability and satisfaction could retain customers prone to churn.
+
+---
+
