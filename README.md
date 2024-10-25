@@ -1,4 +1,6 @@
-# Customer-Churn-Analysis-Python
+# Customer-Churn-Analysis
+
+**TOOLS USED**:  Python , PowerBI
 
 
 
